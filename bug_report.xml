@@ -1,1 +1,17 @@
-Add new string
+<?xml version="1.0" encoding="UTF-8"?>
+<bag>
+    <Summary>Login:Error masseges in the login are displayed in English</Summary>
+    <Environment>All browsers/devise</Environment>
+    <Severity>Major</Severity>
+    <Steps to reproduse>
+        <1>Open front end https://www.test-obelink.be:8443/</1>
+        <2>Follow 'Inloggen' link</2>
+        <3>Fill required fields with invalid data</3>
+        <4>Click 'Inloggen' button</4>
+        <5>Pay attention to error messages</5>
+    </Steps to reproduse>
+    <Actual result>Error messages in the login form are displayed in English</Actual result>
+    <Expected result>Error messages in the login form are displayed in the chosen language</Expected result>
+    <Attachment>https://.....</Attachment>
+</bag>
+
